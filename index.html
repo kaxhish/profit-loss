@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profit orr loss app</title>
+    <script src="./index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col items-center mt-24">
+    <div>
+        <h1 class="font-bold text-black text-4xl">Stock profile and loss Calculator </h1>
+    </div>
+    
+    <div class="m-6 mt-10">
+        <label for="" class="text-2xl text-fuchsia-500 font-bold">Initial Price <br/> <input type="number"  id="initial-price" placeholder="Enter Initial price here"
+             class="border-solid border-4 border-fuchsia-500 rounded-xl p-3 mt-3 font-normal"></label>
+    </div>
+    
+    <div class="m-6">
+        <label for="" class="text-2xl text-fuchsia-500 font-bold">Quantity of Stock <br/> <input type="number" id="stocks-quantity" placeholder="Enter the No of Stocks"
+            class="border-solid border-4 border-fuchsia-500 rounded-xl p-3 mt-3 font-normal"></label>
+    </div>
+        
+    <div class="m-6">
+        <label for="" class="text-2xl text-fuchsia-500 font-bold">Current Price <br/> <input type="number" id="current-price" placeholder="Enter the Current price"
+            class="border-solid border-4 border-fuchsia-500 rounded-xl p-3 mt-3 font-normal"></label>
+    </div>
+       
+    <div>
+        <button id="check-here"  class="rounded-xl p-4 mt-3 text-white font-bold bg-fuchsia-500 text-xl w-72">Check Here</button>
+    </div>
+        
+    <div id="output" class="font-bold text-2xl m-6">Result here</div>
+</div>
+</body>
+</html>
